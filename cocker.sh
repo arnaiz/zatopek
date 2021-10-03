@@ -1,19 +1,3 @@
-Programa para controlar la caldera
-
-Teclear: "./cocker.sh acción"
-
-Listado de acciones
-    -enciende: para encender
-    -apaga: para apagar
-    -estado: muestra si la caldera funciona en este momento
-    -ayuda: muestra esta ayuda
-
-Algunos ejemplos: 
-    ./cocker.sh  enciende
-    ./cocker.sh  apaga
-    ./cocker.sh  estado
-root@raspberrypi:~/scripts# vi cocker.sh 
-root@raspberrypi:~/scripts# cat cocker.sh 
 #!/usr/bin/env bash
 RELAY_PIN=26
 
